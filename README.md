@@ -10,13 +10,6 @@ A Library Management System designed to see the books available in a college lib
 * [Project Lombok](https://projectlombok.org/) Reduces the time  of writing java boiler plate code.
 
 ## Using Library Management System
-CLI-->
-```
-git clone https://github.com/saikat021/Library-Management-System.git
-cd Library-Management-System
-mvn package 
-java -jar target/Student-library-0.0.1-SNAPSHOT.jar
-```
 Intellij/Eclipse-->
 1. Let maven resolve dependencies 
 2. run SpringBootApplication
@@ -45,10 +38,6 @@ An additional SQL table created to map the N:M mapping between the **Card** and 
 * Transaction status (SUCCESSFUL/PENDING/FAILED)
 * date
 * fine amount (Applicable only while return operations and fine calculated based on a pre-defined Business logic written clearly in the Transaction Service class)
-
-
-ER Diagram:
-![](ER.PNG)
 
 ### Functionalities Exposed 
 #### Student Controller class 
@@ -100,7 +89,6 @@ Each example API preceeded by "http://localhost:8080"
 * /transaction/issueBook--> issues a book(STUDENT)  
 .....
 ## Author and Developed by
-Saikat Chakraborty
 
 
 
